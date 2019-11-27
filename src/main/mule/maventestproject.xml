@@ -20,5 +20,6 @@ output application/json
 "This is the response from the MavenTestProject in JSON."]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="f277068f-fc80-4c84-b0e2-f63a06bb7dfc" />
 	</flow>
 </mule>
