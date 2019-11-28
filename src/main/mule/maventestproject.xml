@@ -20,6 +20,7 @@ output application/json
 "This is the response from the MavenTestProject in JSON."]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="f277068f-fc80-4c84-b0e2-f63a06bb7dfc" />
+		<set-payload value="this is actually new payload and not original payload" doc:name="Set Payload" doc:id="f277068f-fc80-4c84-b0e2-f63a06bb7dfc" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="b2eb723f-703f-4b3f-9288-779215079fcc" />
 	</flow>
 </mule>
